@@ -1,2 +1,2 @@
-# brap_hackathon
-A repo for the BRAP project for the Harvard Hackathon
+# Hacking Injustice Hackathon
+A repo for the Harvard Hacking Injustice Hackathon, Urban Sanitation Track
