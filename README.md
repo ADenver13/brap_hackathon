@@ -1,2 +1,2 @@
 # brap_hackathon
-A repo for the brap project for the Harvard Hackathon
+A repo for the BRAP project for the Harvard Hackathon
