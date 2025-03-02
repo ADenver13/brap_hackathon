@@ -52,6 +52,10 @@ Animation: The map will update monthly to show how the sightings evolve over tim
 - Afterwards, run `data_processing.py` to add month and year columns and filter out for rodent only calls.
 
 ### Screenshots
+![Screenshot 2025-03-02 012239](https://github.com/user-attachments/assets/15d9866e-b5dd-4fe4-bacf-e7c3b2f25ad6)
+![Screenshot 2025-03-02 022602](https://github.com/user-attachments/assets/61cd76e4-bc68-4f2d-b3a4-4f263084fca4)
+![Screenshot 2025-03-02 022800](https://github.com/user-attachments/assets/20bc5a69-e4e0-4e86-9445-8556e3a50780)
 
 ### License
+
 This project is licensed under the MIT License - see the license file for details.
