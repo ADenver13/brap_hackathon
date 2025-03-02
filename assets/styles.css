@@ -4,45 +4,68 @@ body {
     color: #E0E0E0;
     font-family: 'Arial', sans-serif;
     margin: 0;
+    padding: 20px 10px;
+}
+
+/* General Styling for all headings */
+h1, h3 {
+    color: #E0E0E0;
+    margin: 0 0 10px 0;
+    padding: 5px;
+}
+
+/* Section Padding - Removes extra padding/margin */
+div {
+    margin: 0;
     padding: 0;
 }
 
-h1, h3 {
-    color: #E0E0E0;
-}
-
-/* Padding for sections */
-div {
-    padding: 20px;
-}
-
-/* Graph Styles */
+/* Styling for Graph Containers */
 .dash-graph {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #1e1e1e; /* Slight background for contrast */
+    padding: 15px;
 }
 
-/* Button styles */
-button {
-    background-color: #007BFF;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-/* Styling for headers */
 h1 {
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 700;
     text-align: center;
+    margin-top: 0;
+    padding-bottom: 15px;
 }
 
-/* Add spacing between graphs */
+h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding: 5px;
+}
+
+/* Spacing Between Graphs and Other Elements */
 html.Div > div {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+/* Layout Styling for the Dashboard Sections */
+section {
+    margin: 20px 0;
+}
+
+/* Add padding and rounded corners to the top-level div (for overall layout) */
+body > div {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+}
+
+/* Add space around all individual sections inside the layout */
+html.Div {
+    margin-bottom: 20px; 
 }

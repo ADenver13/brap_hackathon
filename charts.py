@@ -8,12 +8,12 @@ def create_animated_map(filtered_df):
         filtered_df, lat="latitude", lon="longitude",
         animation_frame="month",
         map_style="open-street-map",
-        title='All Rodent Sightings Animated (Jan-Feb) (All Years)'
+        title='All Rodent Sightings Animated (Jan-Feb)',
+        zoom=11
     )
 
     fig.update_layout(
-        # width=1000,
-        height=800
+        height=800,
     )
     return fig
 
@@ -30,11 +30,18 @@ def create_bar_chart(filtered_df):
 def create_table_figure(filtered_df):
     return dash_table.DataTable(
         filtered_df.to_dict('records'),
-        [{"name": i, "id": i} for i in filtered_df.columns],
+        [{"name": i, "id": i} for i in filtered_df.columns[1:]],
         page_size=10,
+        filter_action='native',
+        sort_action='native',
+        sort_mode='multi',
         style_table={
             'maxWidth': '100%',
             'overflowX': 'auto',
+        },
+        style_cell={
+            'color': 'black',
+            'textAlign': 'left',
         },
     )
 
@@ -42,9 +49,9 @@ def create_indicator(number, title, delta):
     fig = go.Figure()
     indicator = go.Indicator(
         mode="number+delta",
-        value=number,  # The number to display
-        title=title,  # Title of the indicator
-        domain={'x': [0, 1], 'y': [0, 1]},  # Set the domain size (controls space for the chart)
+        value=number,
+        title=title,
+        domain={'x': [0, 1], 'y': [0, 1]},
         delta = {'reference': delta},
     )
     fig.add_trace(indicator)
@@ -65,10 +72,10 @@ def create_map(title, df, breakdown=None):
         map_style="open-street-map",
         title=title,
         color=breakdown,
+        zoom=11,
     )
 
     fig.update_layout(
-        # width=1000,
         height=800
     )
     return fig
