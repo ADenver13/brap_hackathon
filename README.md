@@ -1,7 +1,7 @@
 # Rodent Activity Tracker (R.A.T)
 
 This project was created over the course of a day for [Hacking Injustice @ Harvard](engineeringhope.org).
-Presentation slides can be accessed [here](https://docs.google.com/presentation/d/1yxv_SrG5sZYOAOY0Oull5OrrWXExseQXS_oYpUotULE/edit?usp=sharing)
+Presentation slides can be accessed [here](https://docs.google.com/presentation/d/1yxv_SrG5sZYOAOY0Oull5OrrWXExseQXS_oYpUotULE/edit?usp=sharing).
 
 ## Table of Contents
 - [Project Description](#project-description)
