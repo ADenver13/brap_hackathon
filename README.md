@@ -30,7 +30,7 @@ This project provides a dashboard template for tracking the rat population in th
 ### Installation Instructions
 To run the project locally, follow these steps:
 
-- Clone the repository: ```git clone https://github.com/yourusername/rodent-sightings-map.git```
+- Clone the repository: ```git clone https://github.com/ADenver13/brap_hackathon.git```
 
 Install the required dependencies using pip:
 
