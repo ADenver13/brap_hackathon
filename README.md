@@ -1,15 +1,16 @@
 # Rodent Activity Tracker (R.A.T)
 
-This project was created over the course of a day for Hacking [Injustice @ Harvard](engineeringhope.org).
+This project was created over the course of a day for [Hacking Injustice @ Harvard](engineeringhope.org).
 
 ## Table of Contents
-- Project Description
-- Features
-- Technologies Used
-- Installation Instructions
-- Usage
-- Datasets
-- License
+- [Project Description](#project-description)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation Instructions](#installation-instructions)
+- [Usage](#usage)
+- [Data Format](#data-format)
+- [Screenshots](#screenshots)
+- [License](#license)
 
 ### Project Description
 
@@ -49,6 +50,8 @@ Animation: The map will update monthly to show how the sightings evolve over tim
 - The dataset can be downloaded from [here](https://data.boston.gov/dataset/311-service-requests)
 - It will be necessary to combine multiple years, you can do this in excel, notepad, or using any online tool.
 - Afterwards, run `data_processing.py` to add month and year columns and filter out for rodent only calls.
+
+### Screenshots
 
 ### License
 This project is licensed under the MIT License - see the license file for details.
